@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    
+}
+
+
+.container{
+    width: 300px;
+    height: 300px;
+      display: flex;
+     justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 200px;
+    position: relative;
+    
+}
+.box img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+
+}
+
+.box i{
+  color: white;
+  font-size: 5vw;
+  position: absolute;
+  color: red;
+  top:50%; 
+   opacity: 0;
+overflow: hidden;
+  left: 50%;
+  transform: scale(0.3);
+  transition: transform ease 0.5s;
+
+}
