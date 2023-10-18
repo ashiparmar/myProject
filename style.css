@@ -47,3 +47,9 @@ overflow: hidden;
   transition: transform ease 0.5s;
 
 }
+
+@media screen and (max-width: 600px)
+{
+    .box i {
+        font-size: 15vw;
+}
