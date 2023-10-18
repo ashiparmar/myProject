@@ -43,7 +43,7 @@ body{
    opacity: 0;
 overflow: hidden;
   left: 50%;
-  transform: scale(0.3);
+  transform: tranlate(-50%, -50%) scale(0.3);
   transition: transform ease 0.5s;
 
 }
